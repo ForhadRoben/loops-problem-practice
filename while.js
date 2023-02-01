@@ -1,10 +1,10 @@
 // if(condition){
-    
+
 // }
 
 
-    // roastGiven = roastGiven + 1;
-    // roastGiven += 1;
+// roastGiven = roastGiven + 1;
+// roastGiven += 1;
 /* 
 1. Loop variable
 2. condition inside while
@@ -13,7 +13,7 @@
 */
 
 var roastGiven = 0;
-while(roastGiven < 7) {
+while (roastGiven < 7) {
     console.log('Roast Den, Please !!')
     console.log(roastGiven);
     roastGiven++;

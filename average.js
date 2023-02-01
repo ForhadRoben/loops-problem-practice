@@ -10,4 +10,6 @@ var totalMarks = mathMarks + biologyMarks + chemistryMarks + physicsMarks + bang
 console.log(totalMarks);
 var average = totalMarks / 5;
 var averageTwoDecimal = average.toFixed(2);
-console.log(averageTwoDecimal);
+console.log(typeof (averageTwoDecimal));
+
+console.log(typeof (parseFloat(averageTwoDecimal)));
